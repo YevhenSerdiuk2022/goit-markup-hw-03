@@ -63,11 +63,11 @@ img{
 }
 /* ==================================================== */
 /* ==================================================== */
-.about-us, .our-team,.what-we-do, .menu__button__container{
+.about-us, .our-team,.menu__button__container,.what-we-do{
     padding: 94px 0;
 }
 .what-we-do{
-    padding-top: 0;
+    padding-top: 0px;
 }
 .about-us__list{
     display: flex;

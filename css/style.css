@@ -63,7 +63,7 @@ img{
 }
 /* ==================================================== */
 /* ==================================================== */
-.about-us, .our-team,.what-we-do{
+.about-us, .our-team,.what-we-do, .menu__button__container{
     padding: 94px 0;
 }
 .what-we-do{
@@ -168,10 +168,7 @@ img{
 }
 /* ==================================================== */
 /* ==================================================== */
-.menu__button__container{
-    padding: 94px 0;
-   
-}
+
 .menu__button-list{
     display: flex;
     justify-content: center;

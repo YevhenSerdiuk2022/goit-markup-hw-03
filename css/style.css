@@ -27,6 +27,8 @@ ul,ol,li{
     list-style: none;
 }
 img{
+    display: block;
+    height: auto;
     width: 100%;
 }
 
@@ -61,7 +63,7 @@ img{
 }
 /* ==================================================== */
 /* ==================================================== */
-.about-us, .our-team{
+.about-us, .our-team, .what-we-do{
     padding: 94px 0;
 }
 
@@ -88,7 +90,6 @@ img{
 /* ==================================================== */
 /* ==================================================== */
 .what-we-do{
-    padding-bottom: 94px;
     text-align: center;
 }
 .what-we-do__list, .our-team__list{
@@ -97,8 +98,8 @@ img{
 .what-we-do__item:not(:last-child),.our-team__item:not(:last-child) {
     margin: 0px 30px 0px 0px;
 }
-.header-block__title{
-    padding-bottom: 50px;
+.header-block__title, .title-our-team, .menu__button-list{
+    margin-bottom: 50px;
 }
 /* ==================================================== */
 /* ==================================================== */
@@ -110,24 +111,21 @@ img{
     text-align: center;
  }
  .our-team__title:not(:last-child){
-    margin: 30px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
  }
 
 .our-team__item{
-    
     background-color: #fff;
 }
 .our-team{
     text-align: center;
     background-color: var(--background-fon-button);
-    
+
 }
-.title-our-team{
-    padding-bottom: 50px;
-}
+
 .our-team__item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-elements{
@@ -166,24 +164,23 @@ border-radius: 0px 0px 4px 4px;
 .footer-grey{
     color: var(--fonts-color);
 }
+/* ==================================================== */
+/* ==================================================== */
+.menu__button__container{
+    padding: 94px 0;
+   
+}
+.menu__button-list{
+    display: flex;
+    justify-content: center;
+}
+
  /* ==================================================== */
 /* ==================================================== */
 .menu__body{
-    margin: auto;
-}
-.menu__button__container{
-   padding: 94px 0px 50px 0px;
-    display: flex;
-    max-width: 611px;
-    justify-content: center;
-}
-.menu__button-content{
-   display: flex;
+    margin-right: auto;
 }
 
-.menu__button-list{
-   display: flex;
-}
 .menu__button-item:not(:last-child){
     margin: 0px 8px 0px 0px;
 }
@@ -224,19 +221,15 @@ border-radius: 0px 0px 4px 4px;
 
 .exmaple__list{
    display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
 }
 .exmaple__item{
-   min-height: 404px;
+    flex-basis: calc((100% - 60px) / 3);
     border: solid 1px #EEEEEE;
-   
 }
-.exmaple__item{
-margin: 0px 30px 30px 0px;
-}
-.example-content-three{
-    margin: 0px 0px 94px 0px; 
-}
-
+ /* ==================================================== */
+/* ==================================================== */
 .address__list{
     display: flex;
 }
@@ -244,9 +237,7 @@ margin: 0px 30px 30px 0px;
 .address__item:not(:last-child){
 margin: 0px 50px 0px 0px;
 }
-
-
-
+ /* ==================================================== */
 /* ==================================================== */
 
 .elements__title{
@@ -276,7 +267,7 @@ margin: 0px 50px 0px 0px;
     width: 693px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .title-block_text{
     font-weight: 900;

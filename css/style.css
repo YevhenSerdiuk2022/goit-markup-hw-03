@@ -34,7 +34,7 @@ img{
 
 /* ==================================================== */
 /* ==================================================== */
-[class*="__container"]{
+.container{
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px 15px;
@@ -43,14 +43,11 @@ img{
     padding: 24px 0;
    border: 1px solid #ECECEC;
 }
-.header__container{
+.header__block{
     display: flex;
     align-items: center;
 }
 
-.header__address{
-  display: flex;
-}
 /* ==================================================== */
 /* ==================================================== */
 .hero{
@@ -63,7 +60,7 @@ img{
 }
 /* ==================================================== */
 /* ==================================================== */
-.about-us, .our-team,.menu__button__container,.what-we-do{
+.section{
     padding: 94px 0;
 }
 .what-we-do{
@@ -113,7 +110,7 @@ img{
     text-align: center;
  }
  .our-team__title:not(:last-child){
-  padding: 30px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
  }
 
 .our-team__item{
